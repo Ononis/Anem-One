@@ -1,0 +1,155 @@
+/********************TAG SELECTORS********************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Bungee Inline", sans-serif;
+  font-size: 5.625rem;
+  color: white;
+  display: inline;
+  text-shadow: #bdbdbd 1px 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*******************CLASS SELECTORS*******************/
+
+.top-container {
+  background-color: #d9ecf2;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: white;
+  height: 750px;
+  position:relative;
+  padding: 1em 40px 5em;
+  width: 80%;
+  margin:0 auto;
+  color:#ffa0a0;
+  font-size:1rem;
+}
+
+.bottom-container {
+  background-color: #d9ecf2;
+  padding:30px;
+  text-emphasis:bold;
+  font-size: 1em;
+}
+.Bubble1 {
+  height: 150px;
+  position: absolute;
+  left: 400px;
+  top: 750px;
+}
+.Bubble2 {
+  height: 180px;
+  position: absolute;
+  right: 400px;
+  top: 400px;
+}
+
+.Bloc1img {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 30%;
+  padding-top: 100px;
+}
+
+.Bloc1text {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 60%;
+  height: 3.5rem;
+padding:150px 100px 100px 0;
+  text-align: left;
+}
+
+.Bloc2text {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 300px;
+  padding:100px 0 100px 100px;
+  width: 60%;
+  text-align:right;
+}
+
+.Bloc2img {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 300px;
+  width: 30%;
+}
+
+.Bloc3img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 550px;
+  width: 30%;
+}
+
+.Bloc3text {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 550px;
+  width: 60%;
+  padding:100px 100px 100px 0;
+  text-align: left;
+
+}
+
+.ratings-container{
+background-color:#ffdada;
+height: 350px;
+padding:60px;
+
+}
+
+.ratings-box{
+    background-color:#ffdada;
+    height: 170px;
+    padding:30px;
+    width:800px;
+    margin:0 auto;
+    text-align:left;
+    
+    }
+
+.Bla {
+    visibility:hidden
+}
+
+.button {
+    background-color: #ff8484;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+/********************ID SELECTORS*********************/
+#Anem-Ona {
+  height: 600px;
+}
+
+#soustitre {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: #bdbdbd 1px 0 5px;
+}
